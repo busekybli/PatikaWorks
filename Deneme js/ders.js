@@ -6,7 +6,7 @@ let total = price + priceTax
 console.log (
     "Fiyat:",price,
     "KDV Orani:", tax,
-    "KDV Tutari:", priceTax
+    "KDV Tutari:", priceTax ,
     "Fiyat: ", total
 )
 
@@ -62,7 +62,26 @@ console.log("number1:", number1,typeof(number1))
 let number2 = 55
 number2 = number2.toString()
 console.log(number2,typeof(number2))
-//Template Literals Kullanimi 
+//dizi (Array) kullanımı 
+let domain ="kodluyoruz"
+let isActive = false
+let items = [15, 25, 35, isActive, domain]
+console.log(items)
 
+let emptyArray = [] // bos list
+
+// Array içindeki eleman/öge sayısını öğrenmek
+console.log(
+    items.length
+)
+// Array icindeki ilk elamının cagrılması 
+console.log(items[0] )
+// Array icindeki son elamanın cagrılması
+console.log(items[items.length -1] ) 
+// Array icindeki ortadaki elemanin cagirilmasi
+console.log(
+    "ortadaki :",
+    items[ Math.floor(items.length /2) ]
+)
 
 
