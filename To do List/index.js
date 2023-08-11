@@ -54,7 +54,7 @@
             if(event.key ==="enter") newElement();
         });
 
-    document.querySelector("#list li").forEach((item) => {
+    document.querySelectorAll("#list li").forEach((item) => {
       item.addEventListener("click", () => {
         if(item.classList.contains("checked"))
             item.classList.remove("checked");
