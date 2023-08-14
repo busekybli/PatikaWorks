@@ -5,7 +5,7 @@ const menu = [
     category: "Korea",
     price: 10.99,
     img:
-        "./images/tteokbokki.jpg",
+        "https://twoplaidaprons.com/wp-content/uploads/2022/12/close-top-down-of-tteokbokki-thumbnail.jpg",
      desc: `Spicy rice cakes, serving with fish cake.`,
 },
 {
@@ -14,7 +14,7 @@ const menu = [
     category: "Japan",
     price: 7.99,
     img:
-    "./images/chickenRamen.jpg",
+    "https://assets.bonappetit.com/photos/6437281f4c497b684ece7ff3/1:1/w_2560%2Cc_limit/Recipe_Beauty_Gingery_Chicken_Ramen_0350.jpg" ,   
     desc: `Chicken noodle soup, serving with vegetables such as soy bean, green onion. In an optional you can ask for egg. `,
 },
 {
@@ -23,7 +23,7 @@ const menu = [
     category: "Korea",
     price: 8.99,
     img:
-    "./images/bibimbap.jpg",
+        "https://i.lezzet.com.tr/images-xxlarge-recipe/bibimbap-2d68e268-6c19-4ff8-b5f8-1145372450cf.jpg",
     desc: `Boiling vegetables, serving with special hot sauce`,
 },
 {
@@ -32,7 +32,7 @@ const menu = [
     category: "China",
     price: 5.99,
         img:
-        "./images/dandanMian.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQARg8H4tOcOcv8RrKG3Q0UeB0Z9M4VmVSuNQ&usqp=CAU",
         desc: `Dan dan noodle, serving with green onion `,
 },
 {
@@ -40,8 +40,8 @@ const menu = [
     title: "Jajangmyeon",
     category: "Korea",
         price: 15.99,
-        img:
-            "./images/jajangmyeon.jpg",
+        img: 
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw26Fc5-n--1MKEbqOB2Pk17e-SucRovWYmA&usqp=CAU",
         desc: `Black bean sauce noodle, serving with green onion `,
 },
 {
@@ -50,7 +50,7 @@ const menu = [
     category: "Japan",
     price: 3.99,
     img:
-        "./images/doroyaki.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYx-6_UHE4Xb4jJ_PLxKwt9oG9KpgWefNaeQ&usqp=CAU",
     desc: `Red bean paste dessert, serving with honey.`,
 },
 {
@@ -59,7 +59,7 @@ const menu = [
     category: "China",
     price: 12.99,
     img:
-        "./images/yangzhouFriedRice.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Zece5nDC2RXm9hETv_d7aVBHjgVzIWpXaw&usqp=CAU",
     desc: `Yangzhou style fried rice, serving with bean and pickles `,
 },
 {
@@ -68,7 +68,7 @@ const menu = [
     category: "Japan",
     price: 9.99,
     img:
-        "./images/onigiri.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRwPNQ7bW0CB657czoBG3zTyScYIfNwdXI8g&usqp=CAU",
     desc: `Rice Sandwich, serving with soy sauce`,
 }
 ];
